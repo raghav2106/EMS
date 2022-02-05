@@ -10,17 +10,20 @@ import { FixedPluginModule} from './shared/fixedplugin/fixedplugin.module';
 
 import { AppComponent } from './app.component';
 import { AppRoutes } from './app.routing';
+import {HttpClientModule} from '@angular/common/http'
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { LoginComponent } from "./pages/login/login.component";
+import { CourseComponent } from './pages/course/course.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     AdminLayoutComponent,
-    LoginComponent
+    LoginComponent,
+    CourseComponent
   ],
   imports: [
     BrowserAnimationsModule,
@@ -34,6 +37,7 @@ import { LoginComponent } from "./pages/login/login.component";
     FooterModule,
     FixedPluginModule,
     FormsModule,
+    HttpClientModule,
     ReactiveFormsModule
   ],
   providers: [],

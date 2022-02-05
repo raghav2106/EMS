@@ -1,0 +1,6 @@
+[
+    {"FirstName" : "Michael", "LastName" : "Williams", "username" : "michael","password" : "password"},
+    {"FirstName" : "Amit","LastName" : "Shah", "username" : "amit", "password" : "password"},
+    {"FirstName" : "Scott","LastName" : "Boland", "username" : "scott", "password" : "password"},
+    {"FirstName" : "Cooper","LastName" : "Dennis", "username" : "cooper", "password" : "password"}
+    ]
