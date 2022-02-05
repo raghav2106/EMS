@@ -6,7 +6,14 @@ import { Component, OnInit } from '@angular/core';
     templateUrl: 'user.component.html'
 })
 
+
 export class UserComponent implements OnInit{
+
+
+    username : String ;
+    constructor(){
+        this.username =  localStorage.getItem("username");
+    }
     ngOnInit(){
     }
 }

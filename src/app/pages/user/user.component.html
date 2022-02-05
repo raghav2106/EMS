@@ -8,10 +8,13 @@
         <div class="author">
           <a href="#">
             <img class="avatar border-gray" src="assets/img/mike.jpg" alt="...">
-            <h5 class="title">Chet Faker</h5>
+
+            <h5 class="title">{{username}}</h5>
+
+
           </a>
           <p class="description">
-            @chetfaker
+            @{{username}}
           </p>
         </div>
         <p class="description text-center">
@@ -130,7 +133,7 @@
             <div class="col-md-3 px-1">
               <div class="form-group">
                 <label>Username</label>
-                <input type="text" class="form-control" placeholder="Username" value="michael23">
+                <input type="text" class="form-control" placeholder="Username" value="{{username}}">
               </div>
             </div>
             <div class="col-md-4 pl-1">
